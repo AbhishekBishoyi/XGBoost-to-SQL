@@ -1,5 +1,7 @@
 # Convert trained XGBoost model to SQL
 
+This tool enables in-database scoring of XGBoost model build in R. To use this function, call fun_xgboost_to_sql(xgbModel,output_file_name,input_table_name,unique_id) and pass the trained XGBoost model, name of the ouput SQL file, name of the input database table, and name of the unique key of that table.
+
 ### Prerequisites
 
 ```
