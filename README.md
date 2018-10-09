@@ -23,11 +23,11 @@ fun_xgboost_to_sql(xgbFit,"output.SQL","[database].[tablename]","id")
 ### Supported objective functions:
 
 Following XGBoost objective functions are supported:
-'''
+```
 objective = "binary:logistic"
           = "reg:logistic"
           = "reg:linear"
           = "reg:gamma"
           = "count:poisson"
           = "reg:tweedie"
-'''
+```
