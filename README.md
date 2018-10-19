@@ -6,7 +6,6 @@ This tool enables in-database scoring of XGBoost model built in R. To use this f
 
 ```
 install.packages("xgboost")
-install.packages("stringr")
 ```
 
 ### Usage:
